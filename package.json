@@ -1,0 +1,36 @@
+{
+  "name": "camb-dict",
+  "version": "1.0.0",
+  "description": "Unofficial cambridge dictionary api",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "cd test && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/camb-dict.git"
+  },
+  "keywords": [
+    "cambridge",
+    "dictionary",
+    "api",
+    "node",
+    "unofficial"
+  ],
+  "author": "Snowflake107",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/camb-dict/issues"
+  },
+  "homepage": "https://github.com/DevSnowflake/camb-dict#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/node": "^14.14.6",
+    "@types/node-fetch": "^2.5.7"
+  }
+}
